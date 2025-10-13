@@ -1,0 +1,10 @@
+-r requirements.txt
+pytest>=6.0
+pytest-cov
+black
+flake8
+sphinx
+sphinx-rtd-theme
+twine
+wheel
+build
