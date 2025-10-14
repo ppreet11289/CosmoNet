@@ -7,7 +7,7 @@
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Build Status](https://github.com/cosmonet-team/cosmonet/workflows/CI/badge.svg)](https://github.com/cosmonet-team/cosmonet/actions)
 [![Documentation Status](https://readthedocs.org/projects/cosmonet/badge/?version=latest)](https://cosmonet.readthedocs.io/en/latest/?badge=latest)
-[![JOSS](https://joss.theoj.org/papers/10.21105/joss.01234/status.svg)](https://doi.org/10.21105/joss.01234)
+<!-- [![JOSS](https://joss.theoj.org/papers/10.21105/joss.01234/status.svg)](https://doi.org/10.21105/joss.01234) -->
 
 CosmoNet is a Python package for astronomical light curve classification that combines traditional statistical features with **Physics-Informed Neural Networks (PINNs)**. By incorporating domain knowledge from astrophysics directly into the feature engineering process, CosmoNet achieves superior classification accuracy for astronomical transients including supernovae, variable stars, and active galactic nuclei.
 
@@ -28,21 +28,7 @@ CosmoNet is a Python package for astronomical light curve classification that co
 pip install cosmonet
 ```
 
-### From Source
 
-```bash
-git clone https://github.com/cosmonet-team/cosmonet.git
-cd cosmonet
-pip install -e .
-```
-
-### Development Installation
-
-```bash
-git clone https://github.com/cosmonet-team/cosmonet.git
-cd cosmonet
-pip install -e ".[dev]"
-```
 
 ## 📋 Requirements
 
@@ -448,7 +434,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ```bash
 # Clone the repository
-git clone https://github.com/cosmonet-team/cosmonet.git
+git clone https://github.com/cosmonet/cosmonet.git
 cd cosmonet
 
 # Create development environment
@@ -504,20 +490,12 @@ If you use CosmoNet in your research, please cite:
   title={CosmoNet: Physics-Informed Neural Networks for Astronomical Light Curve Classification},
   author={CosmoNet Team},
   year={2023},
-  url={https://github.com/cosmonet-team/cosmonet},
+  url={https://github.com/Ritvanritesh/CosmoNet},
   version={0.1.0}
 }
 
-@article{cosmonet_joss2023,
-  title={CosmoNet: Physics-Informed Neural Networks for Astronomical Light Curve Classification},
-  author={CosmoNet Team},
-  journal={Journal of Open Source Software},
-  year={2023},
-  volume={8},
-  number={86},
-  pages={1234},
-  doi={10.21105/joss.01234}
-}
+
+
 ```
 
 ## 📄 License
@@ -532,28 +510,31 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 - The open-source community for various scientific computing tools
 
 ## 📚 References
-
-1. [The Photometric LSST Astronomical Time-Series Classification Challenge (PLAsTiCC)](https://arxiv.org/abs/1910.13104)
-2. [Physics-Informed Neural Networks: A Deep Learning Framework for Solving Forward and Inverse Problems](https://arxiv.org/abs/1711.10561)
-3. [Classification in Astronomy: A Review](https://arxiv.org/abs/1912.11079)
-4. [Machine Learning for Astronomical Time Series](https://arxiv.org/abs/2003.07457)
+<!-- 
+1. [The Photometric LSST Astronomical Time-Series Classification Challenge (PLAsTiCC)](https://arxiv.org/abs/1910.13104) -->
+1. [Physics-Informed Neural Networks: A Deep Learning Framework for Solving Forward and Inverse Problems](https://arxiv.org/abs/1711.10561)
+<!-- 3. [Classification in Astronomy: A Review](https://arxiv.org/abs/1912.11079)
+4. [Machine Learning for Astronomical Time Series](https://arxiv.org/abs/2003.07457) -->
 
 ## 🆘 Support
 
-- **Documentation**: https://cosmonet.readthedocs.io/
-- **Bug Reports**: https://github.com/cosmonet-team/cosmonet/issues
-- **Discussions**: https://github.com/cosmonet-team/cosmonet/discussions
-- **Email**: cosmonet-team@example.com
+- **Documentation**: https://app.readthedocs.org/projects/cosmonet/
+- **Bug Reports**: https://github.com/ritvanritesh/cosmonet/issues
+- **Discussions**: https://github.com/ritvanritesh/cosmonet/discussions
+- **Email**: cosmonet@gmail.com
 
-## 🔗 Related Projects
 
-- [astroML](https://github.com/astroML/astroML) - Machine learning for astrophysics
-- [lightkurve](https://github.com/lightkurve/lightkurve) - Kepler and TESS time series analysis
-- [snana](https://github.com/observingClouds/snana) - Supernova analysis
-- [astropy](https://github.com/astropy/astropy) - Core astronomy library for Python
 
 ---
 
+## Made By:
+
+1. Ritvan Ritesh Partap Singh
+2. Preet Gurshan Singh Chani
+3. Raghav Sharma
+
+
 **Made with ❤️ by the CosmoNet Team**
+
 
 ![CosmoNet Logo](https://github.com/cosmonet-team/cosmonet/raw/main/docs/images/cosmonet_logo.png)
